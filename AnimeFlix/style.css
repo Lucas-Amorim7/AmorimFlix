@@ -1,0 +1,70 @@
+body {
+  color: hsl(0, 0%, 100%);
+  background: hsl(254, 12%, 12%, 1);
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: solid 2px hsl(254, 12%, 36%, 1);
+  margin: 10px;
+  font-size: xx-large;
+  color: hsl(254, 5%, 47%, 1);
+}
+
+.começo {
+  background: hsla(254, 5%, 9%, 1);
+  padding-bottom: 10%;
+  padding-top: 5%;
+  display: flex;
+}
+
+.cabeçalho {
+  margin-right: 5%;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.video {
+  position: relative;
+  top: 40px;
+  right: 100px;
+}
+
+img {
+  height: 200px;
+}
+
+.Recomendados {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.Recomendados img {
+  opacity: 0.5;
+}
+
+.Recomendados img:hover {
+  opacity: 1;
+  border: 1px solid rgb(79, 55, 90);
+}
+
+.categoria h3 {
+  color: hsl(300, 1%, 65%);
+}
